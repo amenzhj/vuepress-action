@@ -1,4 +1,4 @@
-name: Pull request workflow
+name: Push workflow
 
 on:
   push:
@@ -40,4 +40,4 @@ jobs:
         run: yarn workspace docs lint-md
 
       - name: Build vuepress
-        run: yarn build 
+        run: yarn build
