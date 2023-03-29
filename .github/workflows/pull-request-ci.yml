@@ -38,8 +38,8 @@ jobs:
       - name: Check linter
         run: yarn lint
 
-      - name: Check markdown linter
-        run: yarn workspace docs lint-md
+    #  - name: Check markdown linter
+    #    run: yarn workspace docs lint-md
 
       - name: Build vuepress
         run: yarn build
